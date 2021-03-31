@@ -11,7 +11,7 @@ int main()
     
     if (radius <= 0 || visochina <= 0)
     {
-        printf("Chisloto ne trqbva da bude negativno ili! 0");
+        printf("Chisloto ne trqbva da bude negativno ili 0");
         return 1;
     }
     
