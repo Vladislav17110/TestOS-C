@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<math.h>
+ 
+int main()
+{
+    float radius, visochina, lice, obem;
+    printf("Vkarai radius: ");
+    scanf("%f", &r);
+    printf("Vkarai height: ");
+    scanf("%f", &h);
+    
+    if (radius <= 0 || visochina <= 0)
+    {
+        printf("Chisloto ne trqbva da bude negativno ili! 0");
+        return 1;
+    }
+    
+    lice = M_PI * radius *radius;
+    obem = M_PI * radius * radius * visochina;
+    printf("lice = %.2f\n", lice);
+    printf("obem = %.2f\n", obem);
+    return 0;  
