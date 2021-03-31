@@ -1,0 +1,4 @@
+sudo apt install gcc
+gedit pro.c
+gcc -o program pro.c -lm
+./program 
